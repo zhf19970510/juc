@@ -1,0 +1,16 @@
+Unsafe
+
+直接操作内存
+  - allocateMemory putXX freeMemory pageSize
+
+直接生成类实例
+  - allocateInstance
+
+直接操作类或实例变量
+  - objectFieldOffset
+  - getInt
+  - getObject
+
+CAS相关操作
+  - compareAndSwapObject Int Long
+
